@@ -59,4 +59,6 @@ class DoctorController extends Controller
         ]);
         return $this->Doctors->update_status($request);
     }
+
+    
 }
